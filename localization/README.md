@@ -11,15 +11,6 @@ This project provides two ROS2 nodes:
 | `waypoint_navigator_gui_sound.py` | PyQt5 GUI for one-click waypoint navigation with audio feedback on success |
 | `waypoint_viewer.py` | Utility node that prints the robot's current map position from AMCL |
 
-## Features
-
-- Clean red-themed GUI with three configurable waypoints
-- Async Nav2 action client for non-blocking navigation
-- Success sound plays when the robot reaches its goal
-- Cancel navigation button
-- Real-time status updates
-- Position tracker for finding and recording new waypoints
-
 ## Prerequisites
 
 - ROS2 Jazzy
