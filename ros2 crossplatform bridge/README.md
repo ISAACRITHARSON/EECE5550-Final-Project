@@ -102,7 +102,7 @@ TOPIC_MAP = [
 ]
 ```
 
-## 🎮 Usage
+## Usage
 
 ### Basic Setup (Localhost Docker)
 
