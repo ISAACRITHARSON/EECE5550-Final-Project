@@ -41,16 +41,7 @@ PincherX100 (Humble)
 - ROS2 Humble
 - Python 3.10+
 
-## Installation
-
-### 1. Clone Repository
-```bash
-cd ~/ros2_ws
-git clone <your-repo-url>
-cd ros2_cross_platform_bridge
-```
-
-### 2. Setup on Host (Jazzy)
+### 1. Setup on Host (Jazzy)
 ```bash
 # Source ROS2 Jazzy
 source /opt/ros/jazzy/setup.bash
@@ -60,7 +51,7 @@ cp bridge_coordinator.py ~/ros2_ws/
 chmod +x ~/ros2_ws/bridge_coordinator.py
 ```
 
-### 3. Setup in Docker (Humble)
+### 2. Setup in Docker (Humble)
 ```bash
 # Enter Docker container
 docker exec -it <container_name> bash
@@ -237,17 +228,6 @@ export ROS_DOMAIN_ID=X
 python3 bridge_coordinator.py --server
 ```
 
-## Project Structure
-```
-ros2_cross_platform_bridge/
-├── bridge_coordinator.py          # Main bridge script
-├── README.md                       # This file
-└── examples/
-    ├── tb4_nav_controller.py      # Nav2 goal monitoring
-    ├── simple_tb4_controller.py   # Simple drive controller
-    └── pincher_pickplace_controller.py  # Arm control example
-```
-
 ## Example Applications
 
 ### TurtleBot4 Navigation → Pincher Pick-and-Place
@@ -263,29 +243,19 @@ Complete example where TurtleBot4 navigates to a goal and signals Pincher arm to
 
 When TB4 reaches goal → Arm executes sequence automatically!
 
+**Original Concept: Dr. Xian Li (Northeastern University)**
 
-## 🤝 Contributing
-
-Contributions welcome! Areas for improvement:
-- Additional message type support
-- Heartbeat/reconnection logic
-- Configuration file support
-- Launch file integration
-
-## 👨‍💻 Author
-
-**Abdul Rahman**  
+**Mohammed Abdul Rahman**  
 MS Robotics @ Northeastern University Seattle  
-Robotics Special Interest Group
 
-## 🔗 Related Projects
+## Related Projects
 
 - [TurtleBot4 Documentation](https://turtlebot.github.io/turtlebot4-user-manual/)
 - [Interbotix ROS2 Packages](https://github.com/Interbotix/interbotix_ros_manipulators)
 - [ROS2 Humble Docs](https://docs.ros.org/en/humble/)
 - [ROS2 Jazzy Docs](https://docs.ros.org/en/jazzy/)
 
-## 📧 Support
+## Support
 
 For issues or questions, please open an issue on GitHub or contact via Northeastern University email.
 
