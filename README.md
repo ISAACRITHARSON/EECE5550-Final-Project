@@ -362,11 +362,6 @@ This repository demonstrates meaningful collaborative work with commit history f
 
 The Dec 14 reorganization commits reflect moving existing code into the required repository structure for final submission, not new development. Commit messages like "Initial Commit by Isaac" and "Original commit by Mohammed (moved as per requirements)" and "Initial Commit by Rongxuan" indicate file reorganization rather than new work.
 
-**Actual Development Timeline:**
-- Dec 2-7: Core implementation (navigation, manipulation, bridge)
-- Dec 8-12: Testing, debugging, and integration
-- Dec 13: Documentation and README creation
-- Dec 14: Repository restructuring for submission compliance
 
 All code was developed during the project timeline. The reorganization ensures the repository meets EECE 5550 submission requirements while preserving the complete development history.
 
@@ -377,7 +372,7 @@ All code was developed during the project timeline. The reorganization ensures t
 
 - Dr. Xian Li for project guidance and original bridge concept
 - Northeastern University Seattle for hardware access
-- TurtleBot4 documentation and tutorials
+- TurtleBot4 and PincherX100 documentation and tutorials
 
 ---
 
