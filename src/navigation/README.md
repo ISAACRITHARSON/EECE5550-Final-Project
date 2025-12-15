@@ -26,7 +26,7 @@ sudo apt install python3-pyqt5
 
 ### 1. Launch Localization
 ```bash
-ros2 launch turtlebot4_navigation localization.launch.py map:=216.yaml
+ros2 launch turtlebot4_navigation localization.launch.py map:=Map1.yaml
 ```
 
 ### 2. Launch Nav2
