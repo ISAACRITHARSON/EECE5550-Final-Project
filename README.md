@@ -22,20 +22,20 @@ IDRIS is a mobile manipulation platform combining TurtleBot4 autonomous navigati
 
 ## Achievement Levels
 
-### Level 1: Foundation ✅ COMPLETE
+### Level 1: Foundation
 - TurtleBot4 autonomous navigation with SLAM and AMCL
 - Pincher X100 ROS2 integration and basic manipulation
 - Mediapipe hand tracking implementation
 - Waypoint recording and navigation workflow
 
-### Level 2: Integration ✅ COMPLETE
+### Level 2: Integration
 - Complete camera-arm integration with puppet control
 - Full system integration with waypoint-based delivery
 - PyQt5 GUI with audio feedback
 - Thread-safe multi-node architecture
 - Real-time gesture recognition
 
-### Level 3: Autonomy ✅ COMPLETE
+### Level 3: Autonomy
 - Cross-platform TCP bridge for automated coordination
 - Navigation-to-manipulation handoff without manual intervention
 - Fully autonomous delivery workflow
