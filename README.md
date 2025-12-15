@@ -323,10 +323,53 @@ Puppet control uses dual threads for concurrent camera capture and ROS2 callback
 - Report and presentation development
 
 ---
+## Collaboration Evidence
 
-## License
+This repository demonstrates meaningful collaborative work with commit history from all team members.
 
-MIT License
+### Commit History
+
+![Early Development Commits](results/commit_history1.png)
+*Figure: Initial development commits (Dec 2, 2025) showing repository setup and core file additions*
+
+![Active Development Commits](results/commit_history2.png)
+*Figure: Active development phase (Dec 13, 2025) with bridge implementation, README documentation, and file reorganization*
+
+![Final Organization Commits](results/commit_history3.png)
+*Figure: Final repository restructuring (Dec 14, 2025) moving files into required folder structure for submission*
+
+### Commit Timeline Summary
+
+**Initial Development (Dec 2, 2025):**
+- Repository initialization and setup
+- Core puppet control implementation
+- Initial file uploads and documentation
+
+**Active Development (Dec 13, 2025):**
+- Cross-platform bridge files added
+- Comprehensive README documentation for all subsystems
+- Waypoint navigator and localization tools
+- File renaming and organization
+- SLAM mapping system implementation
+
+**Final Organization (Dec 14, 2025):**
+- Repository restructuring per submission requirements
+- Files moved into required folder structure (src/, demo/, data/, level3/)
+- Video links integration
+- Final documentation updates
+
+### Note on Recent Commits
+
+The Dec 14 reorganization commits reflect moving existing code into the required repository structure for final submission, not new development. Commit messages like "Initial Commit by Isaac" and "Original commit by Mohammed (moved as per requirements)" and "Initial Commit by Rongxuan" indicate file reorganization rather than new work.
+
+**Actual Development Timeline:**
+- Dec 2-7: Core implementation (navigation, manipulation, bridge)
+- Dec 8-12: Testing, debugging, and integration
+- Dec 13: Documentation and README creation
+- Dec 14: Repository restructuring for submission compliance
+
+All code was developed during the project timeline. The reorganization ensures the repository meets EECE 5550 submission requirements while preserving the complete development history.
+
 
 ---
 
