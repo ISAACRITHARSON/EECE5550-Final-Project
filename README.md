@@ -1,7 +1,7 @@
 # IDRIS - Indoor Delivery Robot Intelligence System
 
 **EECE 5550 Mobile Robotics Final Project**  
-**Fall 2025**
+**Fall 2026**
 
 **Team:** IDRIS  
 **Institution:** Northeastern University, Seattle  
