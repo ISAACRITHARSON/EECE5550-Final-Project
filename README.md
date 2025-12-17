@@ -4,7 +4,7 @@
 **Fall 2025**
 
 **Team:** IDRIS  
-**Institution:** Northeastern University, Seattle  
+**Institution:** Northeastern University, Seattl  
 **Instructor:** Dr. Xian Li
 
 ---
